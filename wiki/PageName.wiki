@@ -5,10 +5,12 @@ From the [http://www.cgal.org CGAL] project website:
 
   The goal of the CGAL Open Source Project is to provide easy access to efficient and reliable geometric algorithms in the form of a C++ library
 
-When compiling the [http://www.cgal.org/download.html CGAL source code], it is compiled to a [http://en.wikipedia.org/wiki/Static_library static library].
+When compiling the [http://www.cgal.org/download.html CGAL source code], on windows CGAL is compiled to a [http://en.wikipedia.org/wiki/Static_library static library].
 
-Unfortunately, binding other languages, such as Java or Python, to CGAL is not possible as most binding frameworks require a [http://en.wikipedia.org/wiki/Dynamic-link_library dynamic-link library].
+Unfortunately, binding other languages, such as Java or Python, to CGAL is not possible as most binding frameworks require a [http://en.wikipedia.org/wiki/Dynamic-link_library dynamic-link library] (dll).
 
-This project aims to provide a .dll for CGAL.
+This project aims to provide a dll for CGAL.
 
-= Details =
+= Pre-requisites =
+
+ * You should have downloaded the CGAL sources and dependencies, and have built the library.  Detailed instruction for this are available at the [http://www.cgal.org/Manual/latest/doc_html/installation_manual/contents.html CGAL website].
