@@ -3,7 +3,7 @@
 = Introduction =
 From the [http://www.cgal.org CGAL] project website:
 
-  The goal of the CGAL Open Source Project is to provide easy access to efficient and reliable geometric algorithms in the form of a C++ library
+  "The goal of the CGAL Open Source Project is to provide easy access to efficient and reliable geometric algorithms in the form of a C++ library"
 
 When compiling the [http://www.cgal.org/download.html CGAL source code], on windows CGAL is compiled to a [http://en.wikipedia.org/wiki/Static_library static library].
 
