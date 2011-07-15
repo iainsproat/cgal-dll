@@ -11,7 +11,7 @@ Unfortunately, binding to CGAL from other languages is often not possible as mos
 
 This project aims to provide a dll for CGAL.
 
-= Pre-requisites =
+= Prerequisites =
 
  * You will be building CGAL and CGAL-dll from source, and should be familiar with compiling C++ projects from source using cmake and make.
 
