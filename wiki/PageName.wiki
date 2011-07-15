@@ -13,6 +13,6 @@ This project aims to provide a dll for CGAL.
 
 = Prerequisites =
 
- * You will be building CGAL and CGAL-dll from source, and should be familiar with compiling C++ projects from source using [http://www.cmake.org/ cmake] and make.
+ * You will be building CGAL and CGAL-dll from source, and should be familiar with compiling C++ projects from source using [http://www.cmake.org/ cmake] and Make or Visual Studio (Microsoft offer a free [http://www.microsoft.com/visualstudio/en-us/products/2010-editions/visual-cpp-express version])
 
  * You should have downloaded the CGAL sources and dependencies, and have built the CGAL library.  Detailed instruction for this are available at the [http://acg.cs.tau.ac.il/cgal-at-tau/installing-cgal-and-related-programs-on-windows CGAL website].
