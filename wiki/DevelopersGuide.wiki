@@ -13,14 +13,18 @@ This project aims to provide a dll for CGAL.
 
 = Prerequisites =
 
- * You will be building CGAL and CGAL-dll from source, and should be familiar with compiling C++ projects from source using [http://www.cmake.org/ cmake] and Make or Visual Studio (Microsoft offer a free [http://www.microsoft.com/visualstudio/en-us/products/2010-editions/visual-cpp-express version])
+ * You will be building CGAL and CGAL-dll from source, and should be familiar with compiling C++ projects from source using [http://www.cmake.org/ cmake] and  Visual Studio.
 
- * You should have downloaded the CGAL sources and dependencies (the simplest option is to install the _CGAL-x.x-setup.exe_ file as it includes some, but not all dependencies), and have built the CGAL library.  Detailed instruction for this are available at the [http://acg.cs.tau.ac.il/cgal-at-tau/installing-cgal-and-related-programs-on-windows CGAL website].
+ * Visual Studio 2010. (Microsoft offer a free [http://www.microsoft.com/visualstudio/en-us/products/2010-editions/visual-cpp-express version])
+
+ * Microsoft Windows 32 bit.
+
+ * Some dependencies may require administrator rights when installing, please refer to the details of these separate packages.
 
 = Build =
 
  # Download and install [http://www.boost.org/ boost].
- # Download and build [http://www.cgal.org/ CGAL]. You only need to build the core, and building with GMP is not required.
+ # Download and build [http://www.cgal.org/ CGAL]. Detailed instruction for this are available at the [http://acg.cs.tau.ac.il/cgal-at-tau/installing-cgal-and-related-programs-on-windows CGAL website]. You only need to build the core, and building with GMP is not required.
  # Copy the built CGAL /lib folder to the installation directory of CGAL.  On Windows the CGAL installation directory is typically `C:\Program Files\CGAL-3.8`.  e.g. If you had built CGAL to `C:\Program Files\CGAL-3.8\bin` , then you would need to copy the folder `C:\Program Files\CGAL-3.8\bin\lib` to `C:\Program Files\CGAL-3.8\lib`
  # Copy the CGAL `compiler_config.h` file from the CGAL build directory, e.g. `C:\Program Files\CGAL-3.8\bin\include\CGAL\compiler_config.h`, to the `\include\CGAL` directory in the CGAL installation directory, e.g. `C:\Program Files\CGAL-3.8\include\CGAL\compiler_config.h`.
  # When CGAL was installed it should have set the environment variable `CGAL_DIR` already.  If not, then please [http://confluence.atlassian.com/display/DOC/Setting+the+JAVA_HOME+Variable+in+Windows set] the `CGAL_DIR` environment variable to point to the CGAL installation directory, e.g. `C:\Program Files\CGAL-3.8`.
