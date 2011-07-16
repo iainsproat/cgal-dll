@@ -1,9 +1,8 @@
 #include "../include/convex_hull_2.h"
 #include <CGAL/convex_hull_2.h>
 
-template <class ForwardIterator, class OutputIterator>
-CGALDLL_API OutputIterator  CGAL_DLL::convex_hull_2 (ForwardIterator first, ForwardIterator last, 
-              OutputIterator  result)
+CGALDLL_API PointsBackIterator convex_hull_2(Points::iterator first, Points::iterator last, 
+		PointsBackIterator result)
 {
 	return CGAL::convex_hull_2( first, last, result);
 }
