@@ -33,9 +33,8 @@ This project aims to provide a dll for CGAL.
  * *libboost_thread-vc100-mt-gd-1_46_1.lib cannot be found*.  This may be encountered when building CGAL-dll in _Debug_ configuration and when your installation of boost has not included debug files.  You can download this file from [http://sourceforge.net/projects/boost/files/boost-binaries/1.46.1/libboost_thread-vc100-mt-gd-1_46_1.zip]. Unzip the file and copy it to your Boost lib directory, e.g. `C:\Program Files\boost\boost_1_46_1\lib\libboost_thread-vc100-mt-gd-1_46_1.lib`.
 
  * *gmp.h cannot be found*.  You have built CGAL with GMP, which is not required.  You can either:
+   * rebuild CGAL with the GMP option turned off, or
    * go to the compiler_config.h file, typically found at `C:\Program Files\CGAL-3.8\bin\include\CGAL\compiler_config.h` and comment out the following two lines:
  //#define CGAL_USE_GMP 1
 
  //#define CGAL_USE_MPFR 1
-
-   * or, rebuild CGAL with the GMP option turned off.
