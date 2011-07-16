@@ -4,7 +4,7 @@
 
 CGAL relies heavily on templates, which cannot be exported.  This has meant that we are unable to expose and use CGAL in other languages in the _exact_ same way we would with C++. 
 
-When we attempted to wrap the templates in functions within a header, we experienced some errors (see below, [#The_problem_with_wrapping_template_functions the problem with wrapping template functions] ).
+When we attempted to wrap the templates in functions within a header, we experienced some errors (see below, _[#The_problem_with_wrapping_template_functions The problem with wrapping template functions]_ ).
 
 Putting the functions inside a class works, so we're going to wrap it that way.
 
