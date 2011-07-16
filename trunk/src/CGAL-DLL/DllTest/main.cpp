@@ -1,12 +1,5 @@
-#include <CGAL/Exact_predicates_inexact_constructions_kernel.h>
 #include <convex_hull_2.h>
 
-#include <vector>
-using namespace std;
-
-typedef CGAL::Exact_predicates_inexact_constructions_kernel K;
-typedef K::Point_2 Point_2;
-typedef std::vector<Point_2> Points;
 
 int main()
 {
@@ -18,8 +11,10 @@ int main()
   points.push_back(Point_2(6,5));
   points.push_back(Point_2(4,1));
 
+  PointsBackIterator resultIterator = std::back_inserter(result);
 
-  CGAL_DLL::convex_hull_2( points.begin(), points.end(), std::back_inserter(result) );
+  CGAL_DLL::convex_hull_2( points.begin(), points.end(), resultIterator);
+  //CGAL_DLL::convex_hull_2( 0, 0, 0 );
   std::cout << result.size() << " points on the convex hull" << std::endl;
   return 0;
 }
