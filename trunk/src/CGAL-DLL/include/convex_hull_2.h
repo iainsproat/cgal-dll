@@ -10,12 +10,12 @@ typedef K::Point_2 Point_2;
 typedef std::vector<Point_2> Points;
 
 
-class CGALDLL_API ConvexHull
+class CGALDLL_API convex_hull_2
 {
 public:
-	ConvexHull(void);
+	convex_hull_2(void);
 	Points calcConvexHull(const Points &points);
-	~ConvexHull(void);
+	~convex_hull_2(void);
 };
 
-#endif //CONVEXHULL_H
+#endif

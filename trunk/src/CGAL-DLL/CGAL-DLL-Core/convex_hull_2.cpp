@@ -1,12 +1,12 @@
-#include "ConvexHull.h"
+#include "convex_hull_2.h"
 #include <CGAL/convex_hull_2.h>
 
-ConvexHull::ConvexHull(void)
+convex_hull_2::convex_hull_2(void)
 {
 }
 
 
-Points ConvexHull::calcConvexHull(const Points &points)
+Points convex_hull_2::calcConvexHull(const Points &points)
 {
 	Points result;
 	CGAL::convex_hull_2( points.begin(), points.end(), std::back_inserter(result) );
@@ -14,6 +14,6 @@ Points ConvexHull::calcConvexHull(const Points &points)
 }
 
 
-ConvexHull::~ConvexHull(void)
+convex_hull_2::~convex_hull_2(void)
 {
 }

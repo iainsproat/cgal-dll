@@ -1,9 +1,12 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CGAL-DLL-Core", "CGAL-DLL-Core\CGAL-DLL-Core.vcproj", "{7E18DBBB-A76A-43BB-A0F9-296181053341}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CGAL-DLL-Core", "CGAL-DLL-Core\CGAL-DLL-Core.vcxproj", "{7E18DBBB-A76A-43BB-A0F9-296181053341}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DllTest", "DllTest\DllTest.vcproj", "{99880910-4DFB-47E0-BF37-F92DA45037AC}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DllTest", "DllTest\DllTest.vcxproj", "{99880910-4DFB-47E0-BF37-F92DA45037AC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7E18DBBB-A76A-43BB-A0F9-296181053341} = {7E18DBBB-A76A-43BB-A0F9-296181053341}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
