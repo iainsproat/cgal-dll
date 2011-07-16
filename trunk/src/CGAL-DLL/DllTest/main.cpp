@@ -1,5 +1,5 @@
 #include <convex_hull_2.h>
-
+#include <CGAL/convex_hull_2.h>
 
 int main()
 {
@@ -13,8 +13,8 @@ int main()
 
   PointsBackIterator resultIterator = std::back_inserter(result);
 
+  //CGAL::convex_hull_2( points.begin(), points.end(), resultIterator);
   CGAL_DLL::convex_hull_2( points.begin(), points.end(), resultIterator);
-  //CGAL_DLL::convex_hull_2( 0, 0, 0 );
   std::cout << result.size() << " points on the convex hull" << std::endl;
   return 0;
 }
