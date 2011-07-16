@@ -2,20 +2,13 @@
 #define CONVEXHULL_H
 
 #include "common.h"
-#include <CGAL/Exact_predicates_inexact_constructions_kernel.h>
-#include <vector>
 
-typedef CGAL::Exact_predicates_inexact_constructions_kernel K;
-typedef K::Point_2 Point_2;
-typedef std::vector<Point_2> Points;
-
-
-class CGALDLL_API convex_hull_2
+namespace CGAL_DLL
 {
-public:
-	convex_hull_2(void);
-	Points calcConvexHull(const Points &points);
-	~convex_hull_2(void);
-};
+	template <class ForwardIterator, class OutputIterator>
+	CGALDLL_API OutputIterator convex_hull_2(ForwardIterator first, ForwardIterator last, 
+		OutputIterator  result);
 
-#endif
+}
+
+#endif //CONVEXHULL_H
