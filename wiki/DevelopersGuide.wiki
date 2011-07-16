@@ -30,7 +30,8 @@ This project aims to provide a dll for CGAL.
  # When CGAL was installed it should have set the environment variable `CGAL_DIR` already.  If not, then please [http://confluence.atlassian.com/display/DOC/Setting+the+JAVA_HOME+Variable+in+Windows set] the `CGAL_DIR` environment variable to point to the CGAL installation directory, e.g. `C:\Program Files\CGAL-3.8`.
  # [http://confluence.atlassian.com/display/DOC/Setting+the+JAVA_HOME+Variable+in+Windows set a new environment variable] `BOOST` to point to your Boost installation directory, e.g. `C:\Program Files\boost\boost_1_46_1`.
  # Download the CGAL-DLL sources from [http://code.google.com/p/cgal-dll/source/checkout Subversion]
- # Open the sources and build in Visual Studio.
+ # Open the sources and build in Visual Studio.  The projects should be built in turn. Build CGAL-DLL-Core first.
+ # An example console application is supplied, you can build that after the CGAL-DLL-Core project has been built.
 
 ===Typical errors when building===
 
