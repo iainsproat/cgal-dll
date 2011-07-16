@@ -25,7 +25,7 @@ This project aims to provide a dll for CGAL.
 
  * Copy the built CGAL /lib folder to the installation directory of CGAL.  On Windows the CGAL installation directory is typically `C:\Program Files\CGAL-3.8`.  e.g. If you had built CGAL to `C:\Program Files\CGAL-3.8\bin` , then you would need to copy the folder `C:\Program Files\CGAL-3.8\bin\lib` to `C:\Program Files\CGAL-3.8\lib`
 
-* Copy the CGAL `compiler_config.h` file from the CGAL build directory, e.g. `C:\Program Files\CGAL-3.8\bin\include\CGAL\compiler_config.h`, to the `\include\CGAL` directory in the CGAL installation directory, e.g. `C:\Program Files\CGAL-3.8\include\CGAL\compiler_config.h`.
+ * Copy the CGAL `compiler_config.h` file from the CGAL build directory, e.g. `C:\Program Files\CGAL-3.8\bin\include\CGAL\compiler_config.h`, to the `\include\CGAL` directory in the CGAL installation directory, e.g. `C:\Program Files\CGAL-3.8\include\CGAL\compiler_config.h`.
 
  * When CGAL was installed it should have set the environment variable `CGAL_DIR` already.  If not, then please [http://confluence.atlassian.com/display/DOC/Setting+the+JAVA_HOME+Variable+in+Windows set] the `CGAL_DIR` environment variable to point to the CGAL installation directory, e.g. `C:\Program Files\CGAL-3.8`.
 
