@@ -5,6 +5,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vector_convex_hull_2", "exa
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CGAL-DLL-Core", "CGAL-DLL-Core.vcxproj", "{7E18DBBB-A76A-43BB-A0F9-296181053341}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "array_convex_hull_2", "examples\Convex_hull_2\array_convex_hull_2.vcxproj", "{3BEA8670-6759-4C1F-889B-7A5262565694}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -19,6 +21,10 @@ Global
 		{7E18DBBB-A76A-43BB-A0F9-296181053341}.Debug|Win32.Build.0 = Debug|Win32
 		{7E18DBBB-A76A-43BB-A0F9-296181053341}.Release|Win32.ActiveCfg = Release|Win32
 		{7E18DBBB-A76A-43BB-A0F9-296181053341}.Release|Win32.Build.0 = Release|Win32
+		{3BEA8670-6759-4C1F-889B-7A5262565694}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3BEA8670-6759-4C1F-889B-7A5262565694}.Debug|Win32.Build.0 = Debug|Win32
+		{3BEA8670-6759-4C1F-889B-7A5262565694}.Release|Win32.ActiveCfg = Release|Win32
+		{3BEA8670-6759-4C1F-889B-7A5262565694}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
