@@ -15,7 +15,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{99880910-4DFB-47E0-BF37-F92DA45037AC}</ProjectGuid>
-    <RootNamespace>DllTest</RootNamespace>
+    <RootNamespace>vector_convex_hull_2</RootNamespace>
     <Keyword>Win32Proj</Keyword>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
